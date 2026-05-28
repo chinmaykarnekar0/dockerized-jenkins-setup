@@ -1,0 +1,10 @@
+configuration-as-code
+workflow-aggregator
+git
+github
+docker-workflow
+pipeline-stage-view
+blueocean
+credentials-binding
+matrix-auth
+job-dsl
