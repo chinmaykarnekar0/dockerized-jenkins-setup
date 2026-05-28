@@ -34,6 +34,10 @@ services:
     build:
       context: .
       dockerfile: docker-agent/Dockerfile
+    environment:
+      JENKINS_URL: http://jenkins:8080
+      JENKINS_SECRET: ${JENKINS_AGENT_SECRET}
+      JENKINS_AGENT_NAME: docker-agent
 
     container_name: jenkins-docker-agent
 
